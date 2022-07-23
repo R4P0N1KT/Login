@@ -8,19 +8,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background-image: url("../images/2f967b6e1ea75a36f625385136a300a1_w200.gif");
-    background-repeat: repeat;
-    background-position-x: 20;
-    background-size: 50;
-    background-color: black;
-    min-height: 100vh;
-    min-width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 main.container {
     background: white;
     max-width: 350px;
@@ -30,22 +17,34 @@ main.container {
     border-radius: 15px;
 }
 
-main h2 {
+main h2[id='sing-in'] {
     font-weight: 600;
     margin-bottom: 2rem;
     position: relative;
 }
 
-main h2::before {
+main h2[id='sing-in']::after {
     content: ' ';
     position: absolute;
     height: 4px;
-    width: 25px;
+    width: 40px;
+    bottom: 3px;
+    bottom: 3px;
+    left: 15%;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #850f07, #b50f04);
+}
+
+main h2[id='sing-in']::before {
+    content: ' ';
+    position: absolute;
+    height: 4px;
+    width: 20px;
     bottom: 3px;
     bottom: 3px;
     left: 0;
     border-radius: 8px;
-    background: linear-gradient(45deg, #850f07, #b50f04);
+    background: #850f07;
 }
 
 form {
@@ -58,6 +57,10 @@ form {
 }
 
 .input-field input[type="text"] {
+    margin-top: 0rem;
+}
+
+.input-field input[type="date"] {
     margin-top: 0rem;
 }
 
@@ -103,18 +106,10 @@ form input[type="button"]:hover {
     margin-top: 1rem;
 }
 
-.footer a {
+.footer span {
     color: rgba(0, 0, 0, 0.7);
     font-size: 0.8rem;
     text-align: center;
-}
-
-.footer span {
-    margin-top: 1rem;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 1rem;
-    text-align: center;
-    align-items: center;
 }
 
 .footer .social-field {
