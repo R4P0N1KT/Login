@@ -30,7 +30,7 @@ function AppRoutes() {
         if (!authenticated) {
             return (
                 <>
-                    <Navigate to={'/'} />
+                    <Navigate to={'https://r4p0n1kt.github.io/raplataform/'} />
                 </>
             ) 
         }
@@ -42,9 +42,9 @@ function AppRoutes() {
     <BrowserRouter>
         <AuthProvider>
             <Routes>
-                <Route exact path="/" element={<LoginPage />} />
-                <Route exact path="/home" element={<Private><HomePage /></Private>} />
-                <Route exact path="/sing-in" element={<SingIn />} />
+                <Route exact path="https://r4p0n1kt.github.io/raplataform/" element={<LoginPage />} />
+                <Route exact path="https://r4p0n1kt.github.io/raplataform/home" element={<Private><HomePage /></Private>} />
+                <Route exact path="https://r4p0n1kt.github.io/raplataform/sing-in" element={<SingIn />} />
             </Routes>
         </AuthProvider>
     </BrowserRouter>

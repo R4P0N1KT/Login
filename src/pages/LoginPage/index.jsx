@@ -33,7 +33,7 @@ function LoginPage() {
                 <button type='submit'>Entrar</button>
             </form>
             <div className='footer'>
-                <Link to='/sing-in'>Não possue conta? Registre-se aqui!</Link>
+                <Link to='https://r4p0n1kt.github.io/raplataform/sing-in'>Não possue conta? Registre-se aqui!</Link>
             </div>
         </main>
     )

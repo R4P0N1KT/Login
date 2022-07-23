@@ -30,7 +30,7 @@ const SingIn = () => {
                     <input type='password' name='password' id='password'
                     placeholder='Crie uma senha'/>
                 </div>
-                <Link to='/'><button type='submit'>Registrar</button></Link>
+                <Link to='https://r4p0n1kt.github.io/raplataform/'><button type='submit'>Registrar</button></Link>
             </form>
             <div class="footer">
             <span>Ou entre através das redes sociais</span>
